@@ -1,10 +1,10 @@
-#Oppgave 2
+# Oppgave 2
 
-###1. Setting up a Google cloud project:
+### 1. Setting up a Google cloud project:
 In order for this to work you will need to have a Google cloud project with Cloud Storage Enabled.(Which it often is by default)
 
 
-###2. Getting Service account key:
+### 2. Getting Service account key:
 When you have your project,  you need to create a Service account that have Storage admin rights.
 - Go to IAM & Admin -> Service Accounts and click *+ CREATE SERVICE ACCOUNT*
 - Give it a name and click *CREATE*
@@ -26,7 +26,7 @@ this will download a json file.
 
 
 
-###3. Setting up required variables:
+### 3. Setting up required variables:
 
 First you will need to set some env variables.
 
@@ -64,7 +64,7 @@ apply your env variables to the TF variables
 
 ```export TF_VAR_bucket=$bucket-name```
 
-###4 Run Terraform commands
+### 4 Run Terraform commands
 
 Now you should be able to run these commands in the init folder:
 
