@@ -1,8 +1,8 @@
 google_service_key.json
 .idea
 
-#init files ignores
-# copied these from https://github.com/github/gitignore/blob/master/Terraform.gitignore
+#init files
+# copied ignore list from https://github.com/github/gitignore/blob/master/Terraform.gitignore
 **/.terraform/*
 *.tfstate
 *.tfstate.*
