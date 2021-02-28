@@ -1,4 +1,4 @@
-#Oppgave 2
+# Oppgave 2
 
 ### 1. Setting up a Google cloud project:
 In order for this to work you will need to have a Google cloud project with Cloud Storage Enabled.(Which it often is by default)
