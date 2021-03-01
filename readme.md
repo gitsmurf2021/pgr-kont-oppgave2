@@ -134,6 +134,10 @@ execute this command in your terminal:
  ### Publish
  now add, commit, and push the changes to master.
  
+ After travis is done, a new VM instances with the name "test-account" and the Machine type you set should now have been created.
+ 
+ (name dosen't make sense i know)
+ 
  
 
 
