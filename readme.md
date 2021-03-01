@@ -96,7 +96,7 @@ This also implies that you still have storage admin from the previous task.
 
 ### Make small changes to travis.yml
 
-on line 3 in travis.yml you will need to update ```- GCP_PROJECT_ID=kont-306116``` to your project Id:
+on line 3 in travis.yml you will need to update ```- GCP_PROJECT_ID=kontreview``` to your project Id:
 
 ```- GCP_PROJECT_ID=YOUR-PROJECT-ID-HERE ```
 
@@ -104,7 +104,7 @@ on line 3 in travis.yml you will need to update ```- GCP_PROJECT_ID=kont-306116`
 
 in backend.tf change the bucket to the one you created in task 2.
 
-``` bucket  = "bucketnavntestheyo"```  to ``` bucket  = "YOUR_BUCKET_NAME"``` 
+```bucket  = "bucktesteyo"```  to ``` bucket  = "YOUR_BUCKET_NAME"``` 
 
 
 ### Encrypt google service key
@@ -125,7 +125,7 @@ run this in your terminal at the root of this project.
  
 A .enc file of your google_service_key.json file should now have been created.
 
-###Set machine type
+### Set machine type
 
 execute this command in your terminal:
 
