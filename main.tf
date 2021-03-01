@@ -1,5 +1,5 @@
 resource "google_service_account" "default" {
-  account_id   = "sa"
+  account_id   = "serviceaccount"
   display_name = "Service Account"
 }
 
