@@ -4,8 +4,8 @@ resource "google_service_account" "default" {
 }
 
 resource "google_compute_instance" "default" {
-  name         = "devops-er-goy"
-  machine_type = var.machine-type
+  name         = "computeInstanceName"
+  machine_type = "f1-micro" #var.machine-type
   zone         = "us-central1-a"
 
   tags = ["foo", "bar"]
