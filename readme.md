@@ -78,7 +78,7 @@ This will create a bucket in your cloud
 
 Make sure you have these apis enabled in your Project:
 
-Cloud Storage,  Google Container registry, Cloud Run Api
+Cloud Storage, Compute engine api, Identity and Access Management (IAM) API
 
 *Go to APIs & services->Dashboard and add them one by one by clicking **+ ENABLE APIS AND SERVICES***
 
@@ -107,15 +107,21 @@ in backend.tf change the bucket to the one you created in task 2.
 ``` bucket  = "bucketnavntestheyo"```  to ``` bucket  = "YOUR_BUCKET_NAME"``` 
 
 
-### hide google service key
+### Encrypt google service key
 
 This will assume that you have travis installed and that you are logged in correctly
 
 run this in your terminal at the root of this project.
 
- ```travis encrypt-file google_service_key.json```
+ ```travis encrypt-file google_service_key.json --pro```
  When you run this it is important to copy the openssl command and replace it with the one
- at line 10 in travis.yml.
+ at line 10 in .travis.yml.
+ 
+ or
+ 
+ You can remove the remove the existing openssl command in .travis.yml file and run:
+ 
+  ```travis encrypt-file google_service_key.json --pro --add```
  
 A .enc file of your google_service_key.json file should now have been created.
 

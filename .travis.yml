@@ -1,6 +1,6 @@
 env:
   global:
-  - GCP_PROJECT_ID=kont-306116
+  - GCP_PROJECT_ID=kontreview
   - tf_version=0.14.7
   - CLOUDSDK_CORE_DISABLE_PROMPTS=1
 branches:
