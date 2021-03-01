@@ -131,7 +131,7 @@ execute this command in your terminal:
 
  ```travis env set TF_ENV_machine_type f1-micro --public  ```
  
- ###Publish
+ ### Publish
  now add, commit, and push the changes to master.
  
  
